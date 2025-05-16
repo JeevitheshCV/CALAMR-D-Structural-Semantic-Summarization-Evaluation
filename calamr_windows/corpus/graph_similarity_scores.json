@@ -1,0 +1,22 @@
+[
+  {
+    "id": "dm-test-f26d8400ae49b90d109c165d0f44b8f6ca253c08",
+    "cosine_similarity": 0.3434,
+    "flow_coverage": 0.5747
+  },
+  {
+    "id": "dm-test-207df192edc1836250b69d1bc5b9e6a38206eb78",
+    "cosine_similarity": 0.7594,
+    "flow_coverage": 0.8957
+  },
+  {
+    "id": "dm-test-f37fd6e9b6cc18a7132568e307ef3b130931e809",
+    "cosine_similarity": 0.4017,
+    "flow_coverage": 0.5955
+  },
+  {
+    "id": "dm-test-14c813567696f4e63a39993c09d4edb454036179",
+    "cosine_similarity": 0.5313,
+    "flow_coverage": 0.7485
+  }
+]

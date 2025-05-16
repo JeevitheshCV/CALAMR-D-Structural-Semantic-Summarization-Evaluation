@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dm-test-8764fb95bfad8ee849274873a92fb8d6b400eee2",
+    "concept_overlap": 0.3721,
+    "common_concepts": 64,
+    "body_concepts": 140,
+    "summary_concepts": 96,
+    "smatch_f1": null
+  },
+  {
+    "id": "dm-test-f26d8400ae49b90d109c165d0f44b8f6ca253c08",
+    "concept_overlap": 0.4485,
+    "common_concepts": 87,
+    "body_concepts": 137,
+    "summary_concepts": 144,
+    "smatch_f1": null
+  },
+  {
+    "id": "dm-test-207df192edc1836250b69d1bc5b9e6a38206eb78",
+    "concept_overlap": 0.4647,
+    "common_concepts": 79,
+    "body_concepts": 144,
+    "summary_concepts": 105,
+    "smatch_f1": null
+  }
+]

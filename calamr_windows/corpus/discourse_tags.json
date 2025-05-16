@@ -1,0 +1,957 @@
+{
+  "dm-test-f26d8400ae49b90d109c165d0f44b8f6ca253c08": {
+    "body": [
+      {
+        "index": 0,
+        "sentence": "Naoki Ogane says that Chelsea have made an offer for\u00a0Yoshinori Muto.",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "The 22-year-old forward has one goal in 11 games for Japan.",
+        "relation_to_prev": "elaboration",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "Muto admits that it is an 'honour' to receive an offer from the Blues.",
+        "relation_to_prev": "elaboration",
+        "parent": 1,
+        "depth": 2
+      },
+      {
+        "index": 3,
+        "sentence": "Chelsea have signed a \u00a3200m sponsorship deal with Yokohama Rubber.",
+        "relation_to_prev": "result",
+        "parent": 2,
+        "depth": 3
+      },
+      {
+        "index": 4,
+        "sentence": "Muto graduated from university with an economics degree two weeks ago.",
+        "relation_to_prev": "elaboration",
+        "parent": 3,
+        "depth": 4
+      },
+      {
+        "index": 5,
+        "sentence": "He would become the first Japanese player to sign for Chelsea.",
+        "relation_to_prev": "elaboration",
+        "parent": 4,
+        "depth": 5
+      },
+      {
+        "index": 6,
+        "sentence": "Chelsea have shown interest have have made an offer to recruit forward Yoshinori Muto from Fc Tokyo.",
+        "relation_to_prev": "elaboration",
+        "parent": 5,
+        "depth": 6
+      },
+      {
+        "index": 7,
+        "sentence": "Chelsea offered Yoshinori Muto from fc Tokyo a spot on the team with Vitesse Arnhem.",
+        "relation_to_prev": "elaboration",
+        "parent": 6,
+        "depth": 7
+      },
+      {
+        "index": 8,
+        "sentence": "The team claims their interest in Muto has nothing to do with the #200 million sponsorship deal with the Japanese Company Yokohama Rubber.",
+        "relation_to_prev": "result",
+        "parent": 7,
+        "depth": 8
+      },
+      {
+        "index": 9,
+        "sentence": "Muto, who just graduated from the University of Tokyo with an economics degree a few weeks ago, may be the first Japanese player for Chelsea if he decides to move to West London.",
+        "relation_to_prev": "elaboration",
+        "parent": 8,
+        "depth": 9
+      },
+      {
+        "index": 10,
+        "sentence": "Muto says he is honored to receive the offer, but he hasn't made a decision yet.",
+        "relation_to_prev": "contrast",
+        "parent": 9,
+        "depth": 10
+      },
+      {
+        "index": 11,
+        "sentence": "22 year old Tokyo forward Yoshinori Muto may soon be playing for Chelsea, who formally made an offer for the star.",
+        "relation_to_prev": "result",
+        "parent": 10,
+        "depth": 11
+      },
+      {
+        "index": 12,
+        "sentence": "He has gotten eleven caps for Japan since starting in 2014.",
+        "relation_to_prev": "elaboration",
+        "parent": 11,
+        "depth": 12
+      },
+      {
+        "index": 13,
+        "sentence": "If he makes the move, he will be the first Japanese player ever to play for Chelsea.",
+        "relation_to_prev": "elaboration",
+        "parent": 12,
+        "depth": 13
+      },
+      {
+        "index": 14,
+        "sentence": "A student who recently graduated form university has been doing well after signing a contract.",
+        "relation_to_prev": "elaboration",
+        "parent": 13,
+        "depth": 14
+      },
+      {
+        "index": 15,
+        "sentence": "He has scored several times and many sponsors have enjoyed working with him.",
+        "relation_to_prev": "result",
+        "parent": 14,
+        "depth": 15
+      },
+      {
+        "index": 16,
+        "sentence": "Chelsea have made Yoshinori Muto an offer.",
+        "relation_to_prev": "elaboration",
+        "parent": 15,
+        "depth": 16
+      },
+      {
+        "index": 17,
+        "sentence": "He would be the first Japanese player to ever represent Chelsea.",
+        "relation_to_prev": "elaboration",
+        "parent": 16,
+        "depth": 17
+      },
+      {
+        "index": 18,
+        "sentence": "Muto has won awards in the J-league.",
+        "relation_to_prev": "elaboration",
+        "parent": 17,
+        "depth": 18
+      },
+      {
+        "index": 19,
+        "sentence": "The degree earned from Keio University by Yoshinori Muto was in economics.",
+        "relation_to_prev": "elaboration",
+        "parent": 18,
+        "depth": 19
+      },
+      {
+        "index": 20,
+        "sentence": "In his debut season, Muto scored 13 times with FC Tokyo.",
+        "relation_to_prev": "result",
+        "parent": 19,
+        "depth": 20
+      },
+      {
+        "index": 21,
+        "sentence": "A leading tyre manufacturer is Yokohama Rubber.",
+        "relation_to_prev": "elaboration",
+        "parent": 20,
+        "depth": 21
+      },
+      {
+        "index": 22,
+        "sentence": "Yoshino Muto, who earned an economics degree from Keio University, scored thirteen goals in his debut season with FC Tokyo.",
+        "relation_to_prev": "result",
+        "parent": 21,
+        "depth": 22
+      },
+      {
+        "index": 23,
+        "sentence": "The offer that Chelsea has made for Muto is not connected in any way to the 200 million dollar sponsorship deal they signed with Yokahama Rubber, a japanese company that manufactures automotive tires, according to FC Tokyo club president Naoki Ogane.",
+        "relation_to_prev": "result",
+        "parent": 22,
+        "depth": 23
+      },
+      {
+        "index": 24,
+        "sentence": "Muto graduated with a economics degree.",
+        "relation_to_prev": "elaboration",
+        "parent": 23,
+        "depth": 24
+      },
+      {
+        "index": 25,
+        "sentence": "Muto had scored 1 times when he debuted.",
+        "relation_to_prev": "contrast",
+        "parent": 24,
+        "depth": 25
+      },
+      {
+        "index": 26,
+        "sentence": "Yokohama Rubber manufactures tyres.",
+        "relation_to_prev": "elaboration",
+        "parent": 25,
+        "depth": 26
+      },
+      {
+        "index": 27,
+        "sentence": "Chelsea offers tokyo player yoshinori muto a deal to join the dutch club.",
+        "relation_to_prev": "elaboration",
+        "parent": 26,
+        "depth": 27
+      },
+      {
+        "index": 28,
+        "sentence": "Muto has earned an economics degree from kei university.",
+        "relation_to_prev": "elaboration",
+        "parent": 27,
+        "depth": 28
+      },
+      {
+        "index": 29,
+        "sentence": "Muto has not made a decision yet.",
+        "relation_to_prev": "elaboration",
+        "parent": 28,
+        "depth": 29
+      },
+      {
+        "index": 30,
+        "sentence": "A leader in world tire manufactering is becoming Chelsea's shirt sponsor.",
+        "relation_to_prev": "result",
+        "parent": 29,
+        "depth": 30
+      },
+      {
+        "index": 31,
+        "sentence": "Muto graduated with an Economics degree from Keio.",
+        "relation_to_prev": "elaboration",
+        "parent": 30,
+        "depth": 31
+      },
+      {
+        "index": 32,
+        "sentence": "Muto scored 13 goals in his first season with FC Tokyo.",
+        "relation_to_prev": "result",
+        "parent": 31,
+        "depth": 32
+      },
+      {
+        "index": 33,
+        "sentence": "Yokohama Rubber makes car tires.",
+        "relation_to_prev": "elaboration",
+        "parent": 32,
+        "depth": 33
+      }
+    ],
+    "summary": [
+      {
+        "index": 0,
+        "sentence": "chelsea have made an offer for fc tokyo 's 22-year-old forward yoshinori muto , according to club president naoki ogane .",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "the japan international , who has played for the j-league side since 2013 , will join chelsea 's dutch partner club vitesse arnhem on loan next season if he completes a move to stamford bridge this summer .",
+        "relation_to_prev": "result",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "ogane claims that chelsea 's interest in muto is not connected to the # 200million sponsorship deal they signed with japanese company yokohama rubber in february .",
+        "relation_to_prev": "result",
+        "parent": 1,
+        "depth": 2
+      }
+    ]
+  },
+  "dm-test-207df192edc1836250b69d1bc5b9e6a38206eb78": {
+    "body": [
+      {
+        "index": 0,
+        "sentence": "Researchers claimed antibiotics could be  contributing to 'obesity\u00a0epidemic.'",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "Their large-scale study was published in the respected Pediatrics journal.",
+        "relation_to_prev": "elaboration",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "It found one third of 10 to 11-year-olds in England are overweight or obese.",
+        "relation_to_prev": "addition",
+        "parent": 1,
+        "depth": 2
+      },
+      {
+        "index": 3,
+        "sentence": "Children who took antibiotics as babies were more likely to be overweight.",
+        "relation_to_prev": "elaboration",
+        "parent": 2,
+        "depth": 3
+      },
+      {
+        "index": 4,
+        "sentence": "Why are there so many fat kids?",
+        "relation_to_prev": "result",
+        "parent": 3,
+        "depth": 4
+      },
+      {
+        "index": 5,
+        "sentence": "Research now indicates that the over use of certain anti-biotics may be the reason why.",
+        "relation_to_prev": "result",
+        "parent": 4,
+        "depth": 5
+      },
+      {
+        "index": 6,
+        "sentence": "A new study has found that antibiotics given to babies may contribute to obesity.",
+        "relation_to_prev": "contrast",
+        "parent": 5,
+        "depth": 6
+      },
+      {
+        "index": 7,
+        "sentence": "The study did not determine the cause of this phenomenon.",
+        "relation_to_prev": "elaboration",
+        "parent": 6,
+        "depth": 7
+      },
+      {
+        "index": 8,
+        "sentence": "It might be that the antibiotics are killing bacteria that help to break down food.",
+        "relation_to_prev": "elaboration",
+        "parent": 7,
+        "depth": 8
+      },
+      {
+        "index": 9,
+        "sentence": "A study suggests that kids given antibiotics early are more likely to be fat as toddlers.",
+        "relation_to_prev": "elaboration",
+        "parent": 8,
+        "depth": 9
+      },
+      {
+        "index": 10,
+        "sentence": "These drugs have been thought of as contributing to the obesity epidemic.",
+        "relation_to_prev": "contrast",
+        "parent": 9,
+        "depth": 10
+      },
+      {
+        "index": 11,
+        "sentence": "The government has warned about superbug problems in the future.",
+        "relation_to_prev": "elaboration",
+        "parent": 10,
+        "depth": 11
+      },
+      {
+        "index": 12,
+        "sentence": "A recent study finds that early antibiotic use can lead to obesity.",
+        "relation_to_prev": "elaboration",
+        "parent": 11,
+        "depth": 12
+      },
+      {
+        "index": 13,
+        "sentence": "Of the 12,000 two-year children studied, those who took antibiotics in the first six-months of life had a higher likelihood of being overweight.",
+        "relation_to_prev": "elaboration",
+        "parent": 12,
+        "depth": 13
+      },
+      {
+        "index": 14,
+        "sentence": "4-5 years old in England",
+        "relation_to_prev": "addition",
+        "parent": 13,
+        "depth": 14
+      },
+      {
+        "index": 15,
+        "sentence": "are overweight or obese leading to fears that today's generation will be the first to die at an earlier age than their parents obesity babies given antibiotics in the first six months of life are more likely to be fat as toddlers a large scale study has found the finish research compared the weight ",
+        "relation_to_prev": "elaboration",
+        "parent": 14,
+        "depth": 15
+      },
+      {
+        "index": 16,
+        "sentence": "Babies who are given antibiotics at six months of age are more likely to be overweight as toddlers.",
+        "relation_to_prev": "elaboration",
+        "parent": 15,
+        "depth": 16
+      },
+      {
+        "index": 17,
+        "sentence": "A third of children who are ten to eleven years of age are overweight.",
+        "relation_to_prev": "elaboration",
+        "parent": 16,
+        "depth": 17
+      },
+      {
+        "index": 18,
+        "sentence": "Boys have more probability of being obese due to antibiotics.",
+        "relation_to_prev": "reason",
+        "parent": 17,
+        "depth": 18
+      },
+      {
+        "index": 19,
+        "sentence": "A large scale study has shown that babies given antibiotics within their first six months are likely to be overweight toddlers.",
+        "relation_to_prev": "elaboration",
+        "parent": 18,
+        "depth": 19
+      },
+      {
+        "index": 20,
+        "sentence": "A third of all 10-11 year olds qualify as overweight and obsese, leading to concerns about their future health.",
+        "relation_to_prev": "addition",
+        "parent": 19,
+        "depth": 20
+      },
+      {
+        "index": 21,
+        "sentence": "Males seem more prone to gaining weight after antibiotics.",
+        "relation_to_prev": "elaboration",
+        "parent": 20,
+        "depth": 21
+      },
+      {
+        "index": 22,
+        "sentence": "A study has shown that babies who receive antibiotics before the age of six months are more likely to be overweight as toddlers, with boys being more prone to this antibiotic obesity.",
+        "relation_to_prev": "elaboration",
+        "parent": 21,
+        "depth": 22
+      },
+      {
+        "index": 23,
+        "sentence": "This may be one factor contributing to high childhood obesity, as one third of 10-11 year olds are overweight.",
+        "relation_to_prev": "contrast",
+        "parent": 22,
+        "depth": 23
+      },
+      {
+        "index": 24,
+        "sentence": "When it pertains to the obesity problem in children, it can be traced back to the use of antibiotics when they were in the first six months of life.",
+        "relation_to_prev": "elaboration",
+        "parent": 23,
+        "depth": 24
+      },
+      {
+        "index": 25,
+        "sentence": "There are studies that suggest that giving babies antibiotics during that period in their lives, led them to more likely be fat toddlers.",
+        "relation_to_prev": "elaboration",
+        "parent": 24,
+        "depth": 25
+      },
+      {
+        "index": 26,
+        "sentence": "Fat toddlers then lead to children having weight issues as they get older.",
+        "relation_to_prev": "elaboration",
+        "parent": 25,
+        "depth": 26
+      },
+      {
+        "index": 27,
+        "sentence": "One third of 10-11 year olds in England are overweight or obese.",
+        "relation_to_prev": "addition",
+        "parent": 26,
+        "depth": 27
+      },
+      {
+        "index": 28,
+        "sentence": "It doesn't stop there, as  one fifth of 4-5 year olds are facing the same problems.",
+        "relation_to_prev": "elaboration",
+        "parent": 27,
+        "depth": 28
+      },
+      {
+        "index": 29,
+        "sentence": "The issues seems to be more of a concern for boys than girls.",
+        "relation_to_prev": "elaboration",
+        "parent": 28,
+        "depth": 29
+      },
+      {
+        "index": 30,
+        "sentence": "Not by much though.",
+        "relation_to_prev": "elaboration",
+        "parent": 29,
+        "depth": 30
+      },
+      {
+        "index": 31,
+        "sentence": "When compared to each other, twenty percent of boy sand ten percent of girls are obese or overweight by the age of two.",
+        "relation_to_prev": "addition",
+        "parent": 30,
+        "depth": 31
+      },
+      {
+        "index": 32,
+        "sentence": "Research has shown that babies that receive antibiotics during the first six months of their lives are more likely to be overweight later in their lives.",
+        "relation_to_prev": "elaboration",
+        "parent": 31,
+        "depth": 32
+      },
+      {
+        "index": 33,
+        "sentence": "The concern of obesity has been heightened in recent years as it's been found that one third of children between the ages of ten and eleven are overweight or obese.",
+        "relation_to_prev": "addition",
+        "parent": 32,
+        "depth": 33
+      },
+      {
+        "index": 34,
+        "sentence": "In particular, adolescent males appear to be more prone to being overweight following exposure to antibiotics early in life.",
+        "relation_to_prev": "elaboration",
+        "parent": 33,
+        "depth": 34
+      }
+    ],
+    "summary": [
+      {
+        "index": 0,
+        "sentence": "babies given antibiotics in the first six months of life are more likely to be fat as toddlers , a large-scale study has found .",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "the researchers said say that just as antibiotics are used to make farm animals put on weight , the may also be fattening our children .",
+        "relation_to_prev": "result",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "writing in the respected medical journal pediatrics , they said that the widely-prescribed drugs could be contributing to the obesity epidemic .",
+        "relation_to_prev": "contrast",
+        "parent": 1,
+        "depth": 2
+      }
+    ]
+  },
+  "dm-test-f37fd6e9b6cc18a7132568e307ef3b130931e809": {
+    "body": [
+      {
+        "index": 0,
+        "sentence": "Christopher Lawler claims he was pinned to a chair and groped by staff.",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "He left job at Clarence House the same day as alleged incident in 1978.",
+        "relation_to_prev": "elaboration",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "Mr Lawler, now 68, claims he reported his account but was twice ignored.",
+        "relation_to_prev": "contrast",
+        "parent": 1,
+        "depth": 2
+      },
+      {
+        "index": 3,
+        "sentence": "The palace is now 'cooperating' with police to investigate historic claims.",
+        "relation_to_prev": "elaboration",
+        "parent": 2,
+        "depth": 3
+      },
+      {
+        "index": 4,
+        "sentence": "A former royal footman has claimed sexual abuse at the hands of palace aides.",
+        "relation_to_prev": "addition",
+        "parent": 3,
+        "depth": 4
+      },
+      {
+        "index": 5,
+        "sentence": "Christopher Lawler worked at Clarence House, the residence of the queen mother, in 1978 when he was grabbed and accosted by staff members.",
+        "relation_to_prev": "addition",
+        "parent": 4,
+        "depth": 5
+      },
+      {
+        "index": 6,
+        "sentence": "Police are investigating these accusations, among accusations of child sex abuse in the 1970s and 1980s.",
+        "relation_to_prev": "addition",
+        "parent": 5,
+        "depth": 6
+      },
+      {
+        "index": 7,
+        "sentence": "A former royal footman rocked the palace yesterday after he claimed that other royal staff tried to force him to take place in a wild sex party at the Queen's residence in the seventies.",
+        "relation_to_prev": "elaboration",
+        "parent": 6,
+        "depth": 7
+      },
+      {
+        "index": 8,
+        "sentence": "Christopher Lawler claims he was forced into an orgy at the royal palace.",
+        "relation_to_prev": "elaboration",
+        "parent": 7,
+        "depth": 8
+      },
+      {
+        "index": 9,
+        "sentence": "He claims that his reports of abuse were ignored by police at the time of the incident.",
+        "relation_to_prev": "elaboration",
+        "parent": 8,
+        "depth": 9
+      },
+      {
+        "index": 10,
+        "sentence": "64 year old Christopher Lawler is claiming palace workers attempted to sexually assault him when he was employed at Clarence House in the 1970s.",
+        "relation_to_prev": "elaboration",
+        "parent": 9,
+        "depth": 10
+      },
+      {
+        "index": 11,
+        "sentence": "Lawler, who would have been 27 at the time of the incident, kept quiet until he became aware of the re-opening of investigations into paedophile ring cover-ups that occurred around the same time.",
+        "relation_to_prev": "elaboration",
+        "parent": 10,
+        "depth": 11
+      },
+      {
+        "index": 12,
+        "sentence": "His claim was initially ignored, but the police have finally begun investigating.",
+        "relation_to_prev": "contrast",
+        "parent": 11,
+        "depth": 12
+      },
+      {
+        "index": 13,
+        "sentence": "Police have been working on an investigation regarding sexual predators with children over 30 years ago.",
+        "relation_to_prev": "elaboration",
+        "parent": 12,
+        "depth": 13
+      },
+      {
+        "index": 14,
+        "sentence": "A person discusses their experience to police and the police continue to investigate.",
+        "relation_to_prev": "result",
+        "parent": 13,
+        "depth": 14
+      },
+      {
+        "index": 15,
+        "sentence": "The footman claimed that he was being forced into a sex orgy.",
+        "relation_to_prev": "elaboration",
+        "parent": 14,
+        "depth": 15
+      },
+      {
+        "index": 16,
+        "sentence": "The footman said he was attacked in January 1978 in London.",
+        "relation_to_prev": "elaboration",
+        "parent": 15,
+        "depth": 16
+      },
+      {
+        "index": 17,
+        "sentence": "After he escaped, he was warned by two men to keep quiet.",
+        "relation_to_prev": "elaboration",
+        "parent": 16,
+        "depth": 17
+      },
+      {
+        "index": 18,
+        "sentence": "The royal footman claims that aides in the palace tried to make him participate in an orgy.",
+        "relation_to_prev": "elaboration",
+        "parent": 17,
+        "depth": 18
+      },
+      {
+        "index": 19,
+        "sentence": "Christopher Lawler claims to have been groped in a chair last year.",
+        "relation_to_prev": "elaboration",
+        "parent": 18,
+        "depth": 19
+      },
+      {
+        "index": 20,
+        "sentence": "Lawler says two men followed him and told him not to tell anyone about what happened.",
+        "relation_to_prev": "addition",
+        "parent": 19,
+        "depth": 20
+      },
+      {
+        "index": 21,
+        "sentence": "Christopher Lawler who is a former footman of the royal palace has claimed that aides attempted to force him into sexual events.",
+        "relation_to_prev": "elaboration",
+        "parent": 20,
+        "depth": 21
+      },
+      {
+        "index": 22,
+        "sentence": "He claims it happened in 1978 in January at the Clarence house.",
+        "relation_to_prev": "elaboration",
+        "parent": 21,
+        "depth": 22
+      },
+      {
+        "index": 23,
+        "sentence": "Two men tried to force themselves onto him and after he got away they threatened him to silence.",
+        "relation_to_prev": "addition",
+        "parent": 22,
+        "depth": 23
+      },
+      {
+        "index": 24,
+        "sentence": "A royal footman made claims that aids working at the palace attempted to force him to join and orgy back in the 70's.",
+        "relation_to_prev": "addition",
+        "parent": 23,
+        "depth": 24
+      },
+      {
+        "index": 25,
+        "sentence": "This occurrence took place in his bedroom, and once he broke free, the footman was followed by the two men who accosted him and they threatened him to keep him quiet.",
+        "relation_to_prev": "addition",
+        "parent": 24,
+        "depth": 25
+      },
+      {
+        "index": 26,
+        "sentence": "The footman accused Clearance House of forcing him into an orgy.",
+        "relation_to_prev": "elaboration",
+        "parent": 25,
+        "depth": 26
+      },
+      {
+        "index": 27,
+        "sentence": "The footman was accosted at the Queen Mother's London residency in January 1978.",
+        "relation_to_prev": "elaboration",
+        "parent": 26,
+        "depth": 27
+      },
+      {
+        "index": 28,
+        "sentence": "The footman broke free and managed to jump up and burst out of the room.",
+        "relation_to_prev": "addition",
+        "parent": 27,
+        "depth": 28
+      }
+    ],
+    "summary": [
+      {
+        "index": 0,
+        "sentence": "police are investigating claims by a former royal footman that palace aides tried to force him into an orgy , it was revealed yesterday .",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "christopher lawler said he was pinned to a chair and groped by a male member of staff on his first day working at clarence house .",
+        "relation_to_prev": "addition",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "the ordeal left him in tears and he left the job the same day .",
+        "relation_to_prev": "addition",
+        "parent": 1,
+        "depth": 2
+      }
+    ]
+  },
+  "dm-test-14c813567696f4e63a39993c09d4edb454036179": {
+    "body": [
+      {
+        "index": 0,
+        "sentence": "Jesse and Melissa Meek revealed they're expecting a child in a rap video they made set to theme from 'The Fresh Prince of Bel-Air.'",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "The clip , which features Jesse and Melissa Meek rapping as they drive in a car, has been viewed over 1.7 million times on YouTube.",
+        "relation_to_prev": "addition",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "It took five takes to film the Happy Valley, Oregon, couple's video.",
+        "relation_to_prev": "elaboration",
+        "parent": 1,
+        "depth": 2
+      },
+      {
+        "index": 3,
+        "sentence": "Jesse and Melissa Meek's creative baby announcement rap which parodies 'The Fresh Prince of Bel-Air' has amassed over 1.7 million youtube videos.",
+        "relation_to_prev": "addition",
+        "parent": 2,
+        "depth": 3
+      },
+      {
+        "index": 4,
+        "sentence": "A Oregon couple receives 1.7 million views on Youtube on a video of them rapping an announcement of their pregnancy.",
+        "relation_to_prev": "elaboration",
+        "parent": 3,
+        "depth": 4
+      },
+      {
+        "index": 5,
+        "sentence": "In a video that went viral and has been watched more than 1.7 million times, a couple from Oregon rapped their baby announcement to the theme of Fresh Prince of Bel-Air.",
+        "relation_to_prev": "addition",
+        "parent": 4,
+        "depth": 5
+      },
+      {
+        "index": 6,
+        "sentence": "A couple in Oregon made a unique video to announce their pregnancy.",
+        "relation_to_prev": "elaboration",
+        "parent": 5,
+        "depth": 6
+      },
+      {
+        "index": 7,
+        "sentence": "Jesse and Melissa Meek created a parody of the Fresh Prince of Bel-Air theme song, originally rapped by Will Smith, to let their family and friends know they are expecting.",
+        "relation_to_prev": "result",
+        "parent": 6,
+        "depth": 7
+      },
+      {
+        "index": 8,
+        "sentence": "A very highly popular video shows a man and woman announcing their pregnancy by making a rap song to the fresh prince theme.",
+        "relation_to_prev": "result",
+        "parent": 7,
+        "depth": 8
+      },
+      {
+        "index": 9,
+        "sentence": "The Oregon couple set their rap video to 'The Fresh Prince of Bel-Air' a 90's sitcom.",
+        "relation_to_prev": "elaboration",
+        "parent": 8,
+        "depth": 9
+      },
+      {
+        "index": 10,
+        "sentence": "The parent's made the announcement from their home in Happy valley, Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 9,
+        "depth": 10
+      },
+      {
+        "index": 11,
+        "sentence": "The couple announced their expecting child via a rap video themed after The Fresh Prince of Bel-Air.",
+        "relation_to_prev": "elaboration",
+        "parent": 10,
+        "depth": 11
+      },
+      {
+        "index": 12,
+        "sentence": "The couple are from Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 11,
+        "depth": 12
+      },
+      {
+        "index": 13,
+        "sentence": "The rap video pregnancy announcement was produced by the couple in Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 12,
+        "depth": 13
+      },
+      {
+        "index": 14,
+        "sentence": "The show the Oregon couple rapped to was \"The Fresh Prince of Bel Air.\"",
+        "relation_to_prev": "elaboration",
+        "parent": 13,
+        "depth": 14
+      },
+      {
+        "index": 15,
+        "sentence": "The parents to be reside in the state of Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 14,
+        "depth": 15
+      },
+      {
+        "index": 16,
+        "sentence": "The state the couple made their announcement in was Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 15,
+        "depth": 16
+      },
+      {
+        "index": 17,
+        "sentence": "The Oregon couple drew inspiration from the sitcom, The Fresh Prince of Bel-Air.",
+        "relation_to_prev": "elaboration",
+        "parent": 16,
+        "depth": 17
+      },
+      {
+        "index": 18,
+        "sentence": "The parents live in Oregon.",
+        "relation_to_prev": "elaboration",
+        "parent": 17,
+        "depth": 18
+      },
+      {
+        "index": 19,
+        "sentence": "The pregnant couple made their announcement from Pennsylvania.",
+        "relation_to_prev": "elaboration",
+        "parent": 18,
+        "depth": 19
+      },
+      {
+        "index": 20,
+        "sentence": "The music was based on a 90s airing featuring Will Smith as a teenager.",
+        "relation_to_prev": "elaboration",
+        "parent": 19,
+        "depth": 20
+      },
+      {
+        "index": 21,
+        "sentence": "They are located in the state above California.",
+        "relation_to_prev": "elaboration",
+        "parent": 20,
+        "depth": 21
+      },
+      {
+        "index": 22,
+        "sentence": "The recording was created in the state below New York.",
+        "relation_to_prev": "elaboration",
+        "parent": 21,
+        "depth": 22
+      }
+    ],
+    "summary": [
+      {
+        "index": 0,
+        "sentence": "an oregon couple announced they are expecting a child in a rap video they made set to the theme from '90s television sitcom ` the fresh prince of bel-air . '",
+        "relation_to_prev": "root",
+        "parent": null,
+        "depth": 0
+      },
+      {
+        "index": 1,
+        "sentence": "the clip , which features jesse and melissa meek rapping as they drive in a car , has been viewed over 1.7 million times on youtube .",
+        "relation_to_prev": "addition",
+        "parent": 0,
+        "depth": 1
+      },
+      {
+        "index": 2,
+        "sentence": "` in happy valley , oregon , livin ' it wed , bought our first house and started to build our homestead , ' melissa says in the clip .",
+        "relation_to_prev": "addition",
+        "parent": 1,
+        "depth": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "dm-test-f26d8400ae49b90d109c165d0f44b8f6ca253c08",
+    "flow_score": 3.0,
+    "summary_sentences": 3,
+    "aligned": 3,
+    "unaligned": [],
+    "alignment_ratio": 1.0,
+    "avg_body_depth_matched": 1.25,
+    "hallucination_penalty": 0.0
+  },
+  {
+    "id": "dm-test-207df192edc1836250b69d1bc5b9e6a38206eb78",
+    "flow_score": 3.0,
+    "summary_sentences": 3,
+    "aligned": 3,
+    "unaligned": [],
+    "alignment_ratio": 1.0,
+    "avg_body_depth_matched": 1.25,
+    "hallucination_penalty": 0.0
+  },
+  {
+    "id": "dm-test-f37fd6e9b6cc18a7132568e307ef3b130931e809",
+    "flow_score": 3.0,
+    "summary_sentences": 3,
+    "aligned": 3,
+    "unaligned": [],
+    "alignment_ratio": 1.0,
+    "avg_body_depth_matched": 1.25,
+    "hallucination_penalty": 0.0
+  },
+  {
+    "id": "dm-test-14c813567696f4e63a39993c09d4edb454036179",
+    "flow_score": 3.0,
+    "summary_sentences": 3,
+    "aligned": 3,
+    "unaligned": [],
+    "alignment_ratio": 1.0,
+    "avg_body_depth_matched": 1.25,
+    "hallucination_penalty": 0.0
+  }
+]
