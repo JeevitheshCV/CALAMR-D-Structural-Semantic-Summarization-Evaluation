@@ -1,156 +1,161 @@
-# CALAMR+D: A Discourse-Aware Graph Alignment Framework for Summarization Evaluation
+# 🧠 CALAMR+D: Discourse-Aware Structural Semantic Summarization Evaluation
 
-**CALAMR+D** is a symbolic, interpretable evaluation framework designed to assess the quality of **abstractive summaries** using both semantic structure (via AMR) and discourse structure. It extends the original **CALAMR** framework by integrating **discourse parsing**, **hierarchical graph alignment**, and **hallucination detection**.
+**CALAMR+D** is a novel, graph-based evaluation framework for **abstractive summarization**, designed to move beyond traditional string-matching metrics like ROUGE and BLEU. By integrating **Abstract Meaning Representation (AMR)** and **discourse parsing**, CALAMR+D provides a fine-grained, interpretable analysis of summary quality—focusing on **faithfulness**, **semantic alignment**, and **hallucination detection**.
 
----
-
-## 📌 Project Purpose
-
-Traditional evaluation metrics like **ROUGE** or **METEOR** rely on lexical overlap, failing to measure true semantic or rhetorical faithfulness in abstractive summarization.
-
-**CALAMR+D solves this by:**
-- Parsing the source and summary into **Abstract Meaning Representation (AMR)** graphs.
-- Extracting **discourse relations** between sentences (e.g., reason, contrast, elaboration).
-- Aligning content using **Sentence-BERT cosine similarity** and **discourse weighting**.
-- Optimizing **max-flow matching** between summary and source nodes.
-- Detecting **hallucinated content** (summary information not grounded in source).
+> This is an enhanced version of [CALAMR](https://aclanthology.org/2024.lrec-main.507), enriched with **discourse-aware alignment** and advanced **semantic flow optimization**.
 
 ---
 
-## 🧠 Key Features
+## 🚀 Motivation: Why CALAMR+D?
 
-- ✅ Semantic Graph Alignment using AMR parsing
-- ✅ Sentence Embedding with SBERT for alignment
-- ✅ Discourse-Aware Scoring using rhetorical relation depth
-- ✅ Flow Network Optimization for global sentence mapping
-- ✅ Composite Scoring: semantic + discourse + hallucination penalty
-- ✅ Full Visualizations: AMR graphs, discourse trees
+Traditional metrics struggle with:
+- Lexical variation (e.g., paraphrases)
+- Semantic drift or hallucinations
+- Disregard for rhetorical/structural importance
+
+**CALAMR+D** aims to resolve these limitations via:
+- Parsing **AMR graphs** for rich semantic meaning
+- Using **discourse trees** to weigh rhetorical significance
+- Performing **semantic alignment** with discourse-aware weighting
+- Leveraging **flow optimization** to detect hallucinations
+- Scoring based on **semantic fidelity**, **coverage**, **centrality**, and **penalties**
 
 ---
 
+## 🧩 Pipeline Overview
 
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{hyperref}
-\usepackage{listings}
-\usepackage{color}
-\geometry{margin=1in}
+The evaluation framework consists of five modular stages:
 
-\title{\textbf{CALAMR+D: Discourse-Aware Structural Semantic Summarization Evaluation}}
-\author{Jeevithesh C V}
-\date{}
+### 1️⃣ AMR Parsing
 
-\begin{document}
-\maketitle
+python calamr_windows/calamr_step_1_parse_amr.py
 
-\section*{Abstract}
-\textbf{CALAMR+D} is a structural and semantic evaluation framework for abstractive summarization that integrates Abstract Meaning Representation (AMR) parsing with discourse structure analysis. It extends the CALAMR methodology by incorporating hierarchical rhetorical roles, centrality estimation, and hallucination detection through flow-based alignment. This document describes the full pipeline, implementation steps, mathematical scoring metrics, and project structure.
+- Parses each sentence with SPRING AMR Parser
+- Outputs AMR graphs in JSON
 
-\section{Introduction}
-Conventional summarization evaluation metrics such as ROUGE and BLEU rely heavily on lexical overlap, which fails to assess paraphrased or semantically equivalent summaries. CALAMR+D aims to go beyond surface-level evaluation by using:
-\begin{itemize}
-  \item \textbf{AMR Graphs}: Representing the semantic structure of each sentence.
-  \item \textbf{Discourse Trees}: Capturing rhetorical relations like \textit{reason}, \textit{elaboration}, and \textit{summary}.
-  \item \textbf{Max-Flow Alignment}: Matching summary nodes to source nodes using semantic + discourse weights.
-\end{itemize}
+### 2️⃣ Discourse Parsing
 
-\section{Pipeline Execution}
-The evaluation process consists of five sequential stages:
+python calamr_windows/calamr_plus_d_step_2_discourse_parse.py
 
-\begin{enumerate}
-  \item \texttt{calamr\_step\_1\_parse\_amr.py} \\
-        Parses source and summary sentences into AMR graphs using the SPRING parser.
+- Annotates sentences with rhetorical relations
+- Builds discourse trees and computes depth (for salience)
 
-  \item \texttt{calamr\_plus\_d\_step\_2\_discourse\_parse.py} \\
-        Assigns rhetorical roles and constructs hierarchical discourse trees.
+### 3️⃣ Semantic Alignment (Discourse-Aware)
 
-  \item \texttt{calamr\_plus\_d\_step\_3\_align\_with\_discourse.py} \\
-        Calculates cosine similarity (via Sentence-BERT) and adjusts with discourse-based weights.
+python calamr_windows/calamr_plus_d_step_3_align_with_discourse.py
 
-  \item \texttt{calamr\_plus\_d\_step\_4\_flow.py} \\
-        Builds and optimizes a bipartite flow graph to determine alignments.
+- Embeds AMRs via Sentence-BERT
+- Adjusts cosine similarities using discourse weights
 
-  \item \texttt{calamr\_plus\_d\_step\_5\_score.py} \\
-        Computes composite scores including hallucination penalty and discourse centrality.
-\end{enumerate}
+### 4️⃣ Flow Network Optimization
+python calamr_windows/calamr_plus_d_step_4_flow.py
 
-\section{Scoring Methodology}
-The final evaluation score is defined as:
+- Constructs bipartite alignment flow graphs
+- Applies max-flow optimization to filter weak/hallucinated alignments
 
-\[
-\text{Composite Score} = \text{Semantic Mean} + \text{Coverage} + (1 - \text{Depth Penalty}) - \text{Hallucination Penalty}
-\]
+### 5️⃣ Scoring
 
-\begin{itemize}
-  \item \textbf{Semantic Mean}: Average cosine similarity of aligned sentence pairs.
-  \item \textbf{Coverage}: Fraction of summary nodes matched with source nodes.
-  \item \textbf{Depth Penalty}: Penalization based on discourse depth (peripheral nodes score lower).
-  \item \textbf{Hallucination Penalty}: Penalty for unaligned or unsupported summary content.
-\end{itemize}
+python calamr_windows/calamr_plus_d_step_5_score.py
 
-\section{Repository Structure}
-\begin{verbatim}
+- Calculates final composite score using:
+  - ✅ Semantic Similarity
+  - 📈 Coverage
+  - 📉 Discourse Depth Penalty
+  - ⚠️ Hallucination Penalty
+
+---
+
+## 📐 Scoring Formula
+
+
+Composite Score = Semantic Mean + Coverage + (1 - Depth Penalty) - Hallucination Penalty
+
+
+Where:
+- **Semantic Mean** = Avg. similarity of aligned sentence pairs
+- **Coverage** = % of summary sentences that align
+- **Depth Penalty** = Avg. discourse depth (lower is better)
+- **Hallucination Penalty** = % of unaligned summary content
+
+---
+
+## 📁 Directory Structure
+
+
 CALAMR-D-Structural-Semantic-Summarization-Evaluation/
-├── calamr_windows/         # All pipeline execution scripts
-├── dataset/                # Input texts (CNN/DailyMail format)
-├── models/                 # AMR parsing models (e.g., SPRING)
-├── outputs/                # Result graphs, scores, visualizations
-├── utils/                  # Helper scripts
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
-\end{verbatim}
+├── calamr_windows/              # Core pipeline (Steps 1-5)
+├── dataset/                     # Input summaries & sources
+├── models/                      # SPRING model directory
+├── outputs/                     # AMRs, discourse trees, scores
+├── utils/                       # Preprocessing helpers
+├── requirements.txt             # Python dependencies
+└── README.md                    # You are here!
 
-\section{Setup and Installation}
-\subsection*{Clone the Repository}
-\begin{lstlisting}[language=bash]
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repo
+
 git clone https://github.com/JeevitheshCV/CALAMR-D-Structural-Semantic-Summarization-Evaluation.git
 cd CALAMR-D-Structural-Semantic-Summarization-Evaluation
-\end{lstlisting}
 
-\subsection*{Install Dependencies}
-\begin{lstlisting}[language=bash]
+
+### 2. Install Dependencies
+
 pip install -r requirements.txt
-\end{lstlisting}
 
-\subsection*{Download AMR Model}
-\begin{lstlisting}[language=python]
-import amrlib
-amrlib.download_model('model_parse_xfm_bart_large-v0_1_0')
-\end{lstlisting}
 
-\section{Experimental Results}
-Tested on the CNN/DailyMail dataset, CALAMR+D shows:
-\begin{itemize}
-  \item Higher alignment accuracy for core content.
-  \item Zero hallucination in selected model-generated summaries.
-  \item Improved interpretability and correlation with human judgment over ROUGE.
-\end{itemize}
+### 3. Download AMR Parser Model
 
-\section{Output Artifacts}
-Each run produces:
-\begin{itemize}
-  \item AMR Graphs (.json)
-  \item Discourse Trees (.json)
-  \item Flow Network Visualizations (.png)
-  \item Composite Scores (.csv / .json)
-\end{itemize}
+python -m amrlib.download_model model_parse_xfm_bart_large-v0_1_0
 
-\section{References}
-\begin{itemize}
-  \item Opitz et al., \textit{CALAMR: Component Alignment for Abstract Meaning Representation}, LREC 2024.
-  \item Zhang et al., \textit{BERTScore: Evaluating Text Generation with BERT}, ICLR 2020.
-  \item Lin, C.-Y., \textit{ROUGE: A Package for Automatic Evaluation of Summaries}, ACL 2004.
-  \item SapienzaNLP, \textit{SPRING: Semantic Parser for AMR}, GitHub.
-\end{itemize}
+> Place the downloaded model inside the `models/` directory.
 
-\section{Author}
-\textbf{Jeevithesh C V} \\
-Email: \texttt{jeevithesh.cv@example.com}
+---
 
-\section{License}
-This project is licensed under the \textbf{MIT License}.
+## 📊 Output Files
 
-\end{document}
+For each input document pair:
+- `parsed_amrs.json`: Sentence-level AMRs
+- `discourse_tree.json`: Discourse depth and relations
+- `alignment_graph.json`: Semantic + discourse flow alignment
+- `score_output.json` or `.csv`: Composite scoring breakdown
 
+Visualization tools: `networkx`, `pygraphviz`, custom dashboards
+
+---
+
+## 🔍 Use Cases
+
+- 📏 Evaluate outputs of BART, T5, Pegasus, etc.
+- 🧪 Detect hallucinated or unsupported summary content
+- 🧭 Visualize rhetorical & semantic alignment
+- 🔬 Inspect training/validation datasets for summarization
+
+---
+
+## 🧪 Experimental Results
+
+On CNN/DailyMail evaluation set:
+- Strong central discourse alignment
+- Effective hallucination flagging
+- Higher correlation with human judgments vs ROUGE
+- Intuitive scoring breakdowns and visualization potential
+
+---
+
+## 📚 References
+
+- Opitz et al., *CALAMR*, LREC 2024  
+- Zhang et al., *BERTScore*, ICLR 2020  
+- Lin, C.-Y., *ROUGE*, ACL 2004  
+- [SPRING AMR Parser](https://github.com/SapienzaNLP/spring)
+
+---
+
+## 👤 Author
+
+**Jeevithesh C V**  
+📧 jeevithesh.cv07@gmail.com  
